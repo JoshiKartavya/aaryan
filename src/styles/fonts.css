@@ -1,4 +1,4 @@
-@import "tailwindcss";
+/* src/styles/fonts.css */
 
 /* Satoshi Regular */
 @font-face {
@@ -88,14 +88,4 @@
   font-weight: 900; /* Black weight */
   font-style: italic;
   font-display: swap;
-}
-
-
-:root {
-  --primary: #070707;
-  --secondary: #ffffff;
-}
-
-body {
-  font-family: 'Satoshi', sans-serif;
 }
