@@ -28,7 +28,7 @@ const Navbar = () => {
             Linkedin
           </a>
           <a
-            href="https://discord.com/users/your-discord-id"
+            href="https://discord.com/users/irubix_"
             className="hover:underline transition-colors"
             target="_blank"
             rel="noopener noreferrer"
