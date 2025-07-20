@@ -6,13 +6,17 @@ const Hero = () => {
   return (
     <>
         <Navbar />
-        <div className="main w-full h-screen flex items-center justify-center bg-[var(--primary)] font-satoshi">
-            <div className="text-center text-white text-[48px]">
-                <h1 className="text-5xl mb-4 text-[var(--secondary)] uppercase">Crafting</h1>
-                <h1 className="text-5xl mb-4 text-[var(--secondary)] flex ">experience
-                    <div><span className="border-1 border-[var(--secondary)] ml-2  px-2 py-1 rounded-lg">🙂😊</span></div>
-                </h1>
-                <h1 className="text-5xl mb-4 text-[var(--secondary)]">for humans</h1>
+        <div id='hero' className="main w-full h-screen flex items-center justify-center bg-[var(--primary)] font-satoshi relative">
+            <img src="./grad1.jpg" alt="graddient" className=' absolute z-10 left-[-5%] top-[30%] h-[420px] xl:h-[720px] blur-[60px] xl:blur-[100px]'/>
+            <div className="text-center text-[var(--secondary)] uppercase text-[32px] xl:text-[64px] absolute z-20">
+                <h1 className="mb-4 ">Crafting</h1>
+                <div className="mb-4 flex items-center justify-center flex row">
+                    <h2>experience</h2>
+                    <div>
+                      <span className=" text-[18px] xl:text-[38px] border-[0.4px] border-[var(--secondary)] ml-2  px-2 py-1 rounded-[20px]">🙂😊</span>
+                    </div>
+                </div>
+                <h1 className="mb-4">for humans</h1>
             </div>
         </div>
     </>

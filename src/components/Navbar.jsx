@@ -8,11 +8,34 @@ const Navbar = () => {
         <span> | </span>
         <span className="text-[var(--secondary)] opacity-50">Portfolio</span>
       </div>
-      <div className="links flex flex-col items-start gap-1 text-[16px]">
-        <p className='font-bold'>CONTACT</p>
-        <p>vishwakarmaaryan1003@gmail.com</p>
-        <p>Linkedin</p>
-        <p>Discord</p>
+      <div className='hidden xl:block 2xl:block'>
+        <div className="links flex flex-col items-start gap-1 text-[16px]">
+          <p className='font-bold'>CONTACT</p>
+          <a
+            href="mailto:vishwakarmaaryan1003@gmail.com"
+            className="hover:underline transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            vishwakarmaaryan1003@gmail.com
+          </a>
+          <a
+            href="https://www.linkedin.com/in/aryanuiux/"
+            className="hover:underline transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Linkedin
+          </a>
+          <a
+            href="https://discord.com/users/your-discord-id"
+            className="hover:underline transition-colors"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Discord
+          </a>
+        </div>
       </div>
     </div>
   )
