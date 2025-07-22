@@ -269,7 +269,7 @@ const ProjectPage = () => {
                                 key={idx}
                                 src={img.asset?.url}
                                 alt={`Final design ${idx + 1}`}
-                                className="w-[180px] md:w-[220px] lg:w-[260px] xl:w-[300px] h-[360px] md:h-[420px] lg:h-[480px] xl:h-[660px] object-cover"
+                                className="w-[160px] md:w-[220px] lg:w-[260px] xl:w-[300px]  object-cover"
                             />
                         ))}
                     </div>
